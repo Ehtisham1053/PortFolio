@@ -88,11 +88,12 @@ export function Hero() {
               variant="outline"
               className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white"
             >
-              <a href="/resume.pdf" download>
+              <a href="/resume.pdf" download="Ehtisham_Afzal_Resume.pdf">
                 <Download className="mr-2 h-4 w-4" />
                 Resume
               </a>
             </Button>
+
           </div>
 
           <div className="animate-bounce">
