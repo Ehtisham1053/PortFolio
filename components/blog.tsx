@@ -1,0 +1,129 @@
+"use client"
+
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "@/components/ui/button"
+import { ExternalLink, Calendar, Clock } from "lucide-react"
+
+export function Blog() {
+  const blogPosts = [
+    {
+      title: "Understanding Machine Learning Pipelines: From Data to Deployment",
+      excerpt:
+        "A comprehensive guide to building end-to-end machine learning pipelines that scale in production environments.",
+      date: "2024-01-15",
+      readTime: "8 min read",
+      url: "https://medium.com/@ehtisham1053/ml-pipelines-guide",
+      tags: ["Machine Learning", "MLOps", "Python"],
+    },
+    {
+      title: "Deep Dive into Exploratory Data Analysis with Python",
+      excerpt:
+        "Learn advanced EDA techniques to uncover hidden patterns and insights in your datasets using pandas and seaborn.",
+      date: "2024-01-10",
+      readTime: "12 min read",
+      url: "https://medium.com/@ehtisham1053/eda-python-guide",
+      tags: ["Data Science", "Python", "EDA"],
+    },
+    {
+      title: "Building Scalable Flask APIs for Machine Learning Models",
+      excerpt:
+        "Best practices for deploying ML models as REST APIs using Flask, including error handling and performance optimization.",
+      date: "2024-01-05",
+      readTime: "10 min read",
+      url: "https://medium.com/@ehtisham1053/flask-ml-apis",
+      tags: ["Flask", "API", "Deployment"],
+    },
+    {
+      title: "Computer Vision with Deep Learning: A Practical Approach",
+      excerpt:
+        "Implementing CNN architectures for image classification tasks with TensorFlow and practical deployment strategies.",
+      date: "2023-12-28",
+      readTime: "15 min read",
+      url: "https://medium.com/@ehtisham1053/computer-vision-deep-learning",
+      tags: ["Deep Learning", "Computer Vision", "TensorFlow"],
+    },
+    {
+      title: "Statistical Hypothesis Testing in Data Science",
+      excerpt:
+        "Understanding when and how to apply different statistical tests to validate your data science findings.",
+      date: "2023-12-20",
+      readTime: "9 min read",
+      url: "https://medium.com/@ehtisham1053/statistical-testing",
+      tags: ["Statistics", "Data Science", "Hypothesis Testing"],
+    },
+    {
+      title: "Time Series Forecasting with XGBoost: A Complete Guide",
+      excerpt:
+        "Learn how to build robust time series forecasting models using XGBoost with feature engineering techniques.",
+      date: "2023-12-15",
+      readTime: "11 min read",
+      url: "https://medium.com/@ehtisham1053/time-series-xgboost",
+      tags: ["Time Series", "XGBoost", "Forecasting"],
+    },
+  ]
+
+  return (
+    <section id="blog" className="py-20 px-4 bg-slate-900/50">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-white mb-4">Latest Blog Posts</h2>
+          <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-600 mx-auto"></div>
+          <p className="text-gray-400 mt-6 max-w-2xl mx-auto">
+            Sharing insights, tutorials, and experiences in data science, machine learning, and software development.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+          {blogPosts.map((post, index) => (
+            <Card
+              key={index}
+              className="bg-slate-800/50 border-slate-700 hover:bg-slate-800/70 transition-all duration-300 hover:scale-105 group"
+            >
+              <CardHeader>
+                <CardTitle className="text-white group-hover:text-purple-400 transition-colors duration-300 line-clamp-2">
+                  {post.title}
+                </CardTitle>
+                <div className="flex items-center gap-4 text-sm text-gray-400">
+                  <div className="flex items-center">
+                    <Calendar className="mr-1 h-4 w-4" />
+                    {new Date(post.date).toLocaleDateString()}
+                  </div>
+                  <div className="flex items-center">
+                    <Clock className="mr-1 h-4 w-4" />
+                    {post.readTime}
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 mb-4 text-sm leading-relaxed line-clamp-3">{post.excerpt}</p>
+
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {post.tags.map((tag, tagIndex) => (
+                    <span key={tagIndex} className="px-2 py-1 bg-purple-600/20 text-purple-300 rounded text-xs">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                <Button asChild size="sm" className="bg-purple-600 hover:bg-purple-700 w-full">
+                  <a href={post.url} target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="mr-2 h-4 w-4" />
+                    Read on Medium
+                  </a>
+                </Button>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+
+        <div className="text-center">
+          <Button asChild className="bg-purple-600 hover:bg-purple-700">
+            <a href="https://medium.com/@ehtisham1053" target="_blank" rel="noopener noreferrer">
+              View All Posts on Medium
+            </a>
+          </Button>
+        </div>
+      </div>
+    </section>
+  )
+}
