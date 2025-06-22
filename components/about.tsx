@@ -32,7 +32,7 @@ export function About() {
                   </div>
                   <div className="flex items-center mt-1 text-sm text-gray-400">
                     <MapPin className="mr-2 h-4 w-4" />
-                    CGPA: 3.2
+                    
                   </div>
                 </div>
 
