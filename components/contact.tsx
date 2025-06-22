@@ -182,7 +182,7 @@ export function Contact() {
           <Card className="bg-gradient-to-r from-purple-600/20 to-pink-600/20 border-purple-500/30">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-700 to-blue-500 bg-clip-text text-transparent mb-4">Ready to Start Your Data Science Journey?</h3>
-              <p className="text-blue-200 mb-6 max-w-2xl mx-auto">
+              <p className="text-2xl font-bold bg-gradient-to-r from-purple-700 to-blue-500 bg-clip-text text-transparent mb-4">
                 From initial consultation to final deployment, I'm here to guide you through every step of your data
                 science project. Let's transform your ideas into reality.
               </p>
