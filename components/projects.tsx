@@ -59,11 +59,11 @@ export function Projects() {
           github: "https://github.com/Ehtisham1053/supply-chain-erp",
         },
         {
-          title: "Medical Diagnosis Classification",
+          title: "Breast Cancer Classification Using Machine Learning 🩺🎗️",
           description:
-            "Built a classification model for early disease detection based on patient vitals and historical records, improving diagnostic accuracy through feature engineering and tuning.",
+            "A machine learning project that classifies tumors as benign or malignant based on medical features. It helps support early detection of breast cancer using predictive analytics.",
           technologies: ["Python", "Flask", "Classification Algorithm", "Matplotlib"],
-          github: "https://github.com/Ehtisham1053/medical-diagnosis",
+          github: "https://github.com/Ehtisham1053/Machine-learning-projects/blob/main/Breast_Cancer_Prediction.ipynb",
         },
         {
           title: "Prediction System (Flight Price / Loan Default)",
