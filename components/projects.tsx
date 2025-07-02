@@ -18,11 +18,11 @@ export function Projects() {
           github: "https://github.com/Ehtisham1053/medical-appointment-system",
         },
         {
-          title: "Event Booking and Ticketing System",
+          title: "Mental Health Tracker",
           description:
-            "Designed a full-stack event management platform with real-time seat availability and secure ticketing flow using role-based access control.",
+            "A web app to track your mood through journal entries, visualize emotional trends with charts, and uncover thought patterns using dynamic word clouds.",
           technologies: ["Python", "Flask", "SQL", "OOP", "HTML/CSS"],
-          github: "https://github.com/Ehtisham1053/event-booking-system",
+          github: "https://github.com/Ehtisham1053/Mental-Health-Tracker.git",
         },
         {
           title: "Bike Rental Application",
@@ -32,11 +32,11 @@ export function Projects() {
           github: "https://github.com/Ehtisham1053/bike-rental-app",
         },
         {
-          title: "Inventory Management System",
+          title: "Library Management System",
           description:
-            "Created a scalable inventory tracking app for retail operations featuring CRUD operations, restock alerts, and real-time stock updates.",
+            "A Python-based library management app built with Streamlit, offering separate interfaces for admins and students to manage books, users, and circulation — all without the need for a database server.",
           technologies: ["Python", "Flask", "PostgreSQL", "OOP", "Pandas"],
-          github: "https://github.com/Ehtisham1053/inventory-management",
+          github: "https://github.com/Ehtisham1053/Library-Management-System.git",
         },
       ],
     },
