@@ -93,11 +93,11 @@ export function Projects() {
           github: "https://github.com/Ehtisham1053/speech-emotion-recognition",
         },
         {
-          title: "Generative AI in Multimedia and Computer Graphics",
+          title: "Image generation using Stable Diffusion",
           description:
-            "Experimented with generative adversarial networks (GANs) to synthesize new images and textures, and applied style transfer on videos and graphics.",
-          technologies: ["Python", "GANs", "CUDA"],
-          github: "https://github.com/Ehtisham1053/generative-ai-multimedia",
+            "Generate stunning images from text prompts using Hugging Face’s powerful diffusion models. Supports multiple styles including photorealism, anime, and digital art via a clean Gradio web interface. Built with PyTorch + Diffusers.",
+          technologies: ["Python", "Diffusion Models", "Gradio", "PyTorch"],
+          github: "https://github.com/Ehtisham1053/Image-generation-using-stable-diffusion.git",
         },
         {
           title: "Age and Gender Prediction from Images",
