@@ -7,13 +7,13 @@ import { ExternalLink, Calendar, Clock } from "lucide-react"
 export function Blog() {
   const blogPosts = [
     {
-      title: "Understanding Machine Learning Pipelines: From Data to Deployment",
+      title: "Understanding the Machine Learning Pipeline: From Data Ingestion to Prediction and Deployment",
       excerpt:
         "A comprehensive guide to building end-to-end machine learning pipelines that scale in production environments.",
-      date: "2024-01-15",
-      readTime: "8 min read",
-      url: "https://medium.com/@ehtisham1053/ml-pipelines-guide",
-      tags: ["Machine Learning", "MLOps", "Python"],
+      date: "2025-07-31",
+      readTime: "4 min read",
+      url: "https://medium.com/@ehtishamafzal14/understanding-the-machine-learning-pipeline-from-data-ingestion-to-production-a447ac87a095",
+      tags: ["Machine Learning", "Python"],
     },
     {
       title: "Deep Dive into Exploratory Data Analysis with Python",
@@ -25,12 +25,12 @@ export function Blog() {
       tags: ["Data Science", "Python", "EDA"],
     },
     {
-      title: "Building Scalable Flask APIs for Machine Learning Models",
+      title: "How AI is Reshaping Supply Chain Management: A Data Scientist’s Perspective",
       excerpt:
-        "Best practices for deploying ML models as REST APIs using Flask, including error handling and performance optimization.",
-      date: "2024-01-05",
+        "In this blog, I’ll walk you through how AI is transforming the supply chain landscape not with vague theory, but through the lens of a data scientist who has seen these technologies in action.",
+      date: "2024-08-04",
       readTime: "10 min read",
-      url: "https://medium.com/@ehtisham1053/flask-ml-apis",
+      url: "https://medium.com/@ehtishamafzal14/how-ai-is-reshaping-supply-chain-management-a-data-scientists-perspective-95f9f3416207",
       tags: ["Flask", "API", "Deployment"],
     },
     {
