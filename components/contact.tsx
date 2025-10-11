@@ -176,11 +176,6 @@ export function Contact() {
             </CardContent>
           </Card>
         </div>
-
-
-          </Card>
-        </div>
-      </div>
     </section>
   )
 }
