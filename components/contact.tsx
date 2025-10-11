@@ -177,39 +177,7 @@ export function Contact() {
           </Card>
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center">
-          <Card className="bg-gradient-to-r from-purple-600/20 to-pink-600/20 border-purple-500/30">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-700 to-blue-500 bg-clip-text text-transparent mb-4">Ready to Start Your Data Science Journey?</h3>
-              <p className="text-2xl font-bold bg-gradient-to-r from-purple-700 to-blue-500 bg-clip-text text-transparent mb-4">
-                From initial consultation to final deployment, I'm here to guide you through every step of your data
-                science project. Let's transform your ideas into reality.
-              </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                <Button
-                  asChild
-                  size="lg"
-                  className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
-                >
-                  <a href="mailto:ehtisham1053@gmail.com">
-                    <Mail className="mr-2 h-5 w-5" />
-                    Start a Conversation
-                  </a>
-                </Button>
-                <Button
-                  asChild
-                  size="lg"
-                  variant="outline"
-                  className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white"
-                >
-                  <a href="tel:+923081061171">
-                    <Phone className="mr-2 h-5 w-5" />
-                    Schedule a Call
-                  </a>
-                </Button>
-              </div>
-            </CardContent>
+
           </Card>
         </div>
       </div>
