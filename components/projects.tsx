@@ -59,11 +59,11 @@ export function Projects() {
           github: "https://github.com/Ehtisham1053/supply-chain-erp",
         },
         {
-          title: "Breast Cancer Classification Using Machine Learning 🩺🎗️",
+          title: "Calibrated Risk Screening for Diabetes & Hypertension",
           description:
-            "A machine learning project that classifies tumors as benign or malignant based on medical features. It helps support early detection of breast cancer using predictive analytics.",
-          technologies: ["Python", "Flask", "Classification Algorithm", "Matplotlib"],
-          github: "https://github.com/Ehtisham1053/Machine-learning-projects/blob/main/Breast_Cancer_Prediction.ipynb",
+            "Developed a classification model for early disease detection using patient vitals and histories.",
+          technologies: ["Python", "Flask", "Classification ML Algorithm"],
+          github: "https://github.com/Ehtisham1053/CardioMetrix.git",
         },
         {
           title: "Prediction System (Flight Price / Loan Default)",
@@ -86,11 +86,11 @@ export function Projects() {
           github: "https://github.com/Ehtisham1053/brain-tumor-detection",
         },
         {
-          title: "Speech Emotion Recognition System",
+          title: "Stock Price Prediction using LSTM",
           description:
-            "Trained a hybrid CNN-LSTM model to classify spoken emotions using MFCC features from audio inputs, with real-time voice input support.",
-          technologies: ["Python", "Flask", "Librosa", "TensorFlow"],
-          github: "https://github.com/Ehtisham1053/speech-emotion-recognition",
+            "This project is a Stock Price Prediction Web Application built with Flask, TensorFlow, Keras, and YFinance. The application predicts the future stock prices based on historical data for closing, opening, and high prices of stocks.",
+          technologies: ["Python", "Flask", "TensorFlow"],
+          github: "https://github.com/Ehtisham1053/Stock-Price-Prediction-using-LSTM.git",
         },
         {
           title: "Image generation using Stable Diffusion",
@@ -100,11 +100,11 @@ export function Projects() {
           github: "https://github.com/Ehtisham1053/Image-generation-using-stable-diffusion.git",
         },
         {
-          title: "Age and Gender Prediction from Images",
+          title: "Defect Detection on MVTec (PaDiM + PatchCore)",
           description:
-            "Designed a multi-output deep learning model to simultaneously predict a person's age and gender from facial images, deployed via a live webcam demo.",
+            "anomaly detection pipeline on MVTec Dataset comparing PaDiM (localization) and PatchCore (classification), with reproducible metrics, overlays, and per-category model selectionn.",
           technologies: ["Python", "TensorFlow", "CNN"],
-          github: "https://github.com/Ehtisham1053/age-gender-prediction",
+          github: "https://github.com/Ehtisham1053/MVTec-AD-anomaly-detection.git",
         },
       ],
     },
