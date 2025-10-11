@@ -39,7 +39,8 @@ export function Contact() {
     {
       icon: <Lightbulb className="h-6 w-6" />,
       title: "Project Consultation",
-      description: "Have a data science project in mind? Let's discuss your requirements and explore possibilities.",
+      description:
+        "Have a data science project in mind? Let's discuss your requirements and explore possibilities.",
     },
     {
       icon: <Coffee className="h-6 w-6" />,
@@ -50,7 +51,8 @@ export function Contact() {
     {
       icon: <Calendar className="h-6 w-6" />,
       title: "Schedule a Meeting",
-      description: "Need a detailed discussion about your ML/AI needs? Let's schedule a proper meeting to dive deep.",
+      description:
+        "Need a detailed discussion about your ML/AI needs? Let's schedule a proper meeting to dive deep.",
     },
   ]
 
@@ -84,9 +86,9 @@ export function Contact() {
                 <p className="text-gray-400 mb-4 text-sm leading-relaxed">{method.description}</p>
                 <Button
                   asChild
-                  className={`w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700`}
+                  className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
                 >
-                  <a href={method.action} target="_blank" rel="noopener noreferrer">
+                  <a href={method.action} target="_blank" rel="noopener noreferrer" aria-label={method.title}>
                     {method.value}
                   </a>
                 </Button>
@@ -157,12 +159,12 @@ export function Contact() {
                   existing systems, let's explore how we can work together.
                 </p>
                 <div className="flex space-x-4 pt-4">
-                  <Button asChild size="icon" className="bg-purple-600 hover:bg-purple-700">
+                  <Button asChild size="icon" className="bg-purple-600 hover:bg-purple-700" aria-label="GitHub">
                     <a href="https://github.com/Ehtisham1053" target="_blank" rel="noopener noreferrer">
                       <Github className="h-5 w-5" />
                     </a>
                   </Button>
-                  <Button asChild size="icon" className="bg-purple-600 hover:bg-purple-700">
+                  <Button asChild size="icon" className="bg-purple-600 hover:bg-purple-700" aria-label="LinkedIn">
                     <a
                       href="https://www.linkedin.com/in/ehtisham-afzal-032009342"
                       target="_blank"
@@ -176,6 +178,7 @@ export function Contact() {
             </CardContent>
           </Card>
         </div>
+      </div>
     </section>
   )
 }
