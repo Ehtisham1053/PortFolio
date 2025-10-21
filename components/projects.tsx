@@ -79,11 +79,11 @@ export function Projects() {
       icon: <Cpu className="h-6 w-6" />,
       projects: [
         {
-          title: "Brain Tumor Detection Using MRI Scans",
+          title: "Disease Detection Using MRI Scans",
           description:
-            "Built a CNN-based classifier to detect brain tumors from MRI images with 95% accuracy, using data augmentation techniques.",
+            "Built a CNN-based classifier to detect breast cancer from MRI images with 95% accuracy, using data augmentation techniques.",
           technologies: ["Python", "CNN", "TensorFlow", "Matplotlib"],
-          github: "https://github.com/Ehtisham1053/brain-tumor-detection",
+          github: "https://github.com/Ehtisham1053/Machine-learning-projects/blob/main/Breast_Cancer_Prediction.ipynb",
         },
         {
           title: "Stock Price Prediction using LSTM",
@@ -95,7 +95,7 @@ export function Projects() {
         {
           title: "Image generation using Stable Diffusion",
           description:
-            "Generate stunning images from text prompts using Hugging Face’s powerful diffusion models. Supports multiple styles including photorealism, anime, and digital art via a clean Gradio web interface. Built with PyTorch + Diffusers.",
+            "Generate stunning images from text prompts using stable diffusion models. Supports multiple styles including photorealism, anime, and digital art via a clean Gradio web interface. Built with PyTorch + Diffusers.",
           technologies: ["Python", "Diffusion Models", "Gradio", "PyTorch"],
           github: "https://github.com/Ehtisham1053/Image-generation-using-stable-diffusion.git",
         },

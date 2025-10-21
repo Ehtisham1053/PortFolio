@@ -68,7 +68,7 @@ export function Hero() {
               variant="outline"
               className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white"
             >
-              <a href="https://www.linkedin.com/in/ehtisham-afzal-032009342" target="_blank" rel="noopener noreferrer">
+              <a href="http://www.linkedin.com/in/ehtisham-afzal-22553a373" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-4 w-4" />
                 LinkedIn
               </a>
