@@ -50,10 +50,7 @@ export function Hero() {
             <span className="animate-pulse">|</span>
           </div>
           <p className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Data Scientist with a strong foundation in statistics, machine learning, and end-to-end data solutions.
-            Proven ability to build predictive models, perform deep EDA, and automate pipelines using Python, SQL, and
-            Flask. Passionate about transforming raw data into actionable decisions through analytical thinking and
-            modern AI tools.
+            Data Scientist skilled in machine learning, deep learning, and end-to-end production solutions. Experienced in EDA, predictive modeling, and scalable ML pipelines. Proficient in NLP, Generative AI, transformer-based LLMs (BERT, GPT, RAG), and AI agents using LangChain. Adept at delivering insight-driven analytics and transforming raw data into actionable business intelligence.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
