@@ -10,8 +10,8 @@ export function Contact() {
       icon: <Mail className="h-8 w-8" />,
       title: "Email Me",
       description: "Drop me a line for project discussions, collaborations, or just to say hello!",
-      value: "ehtisham1053@gmail.com",
-      action: "mailto:ehtisham1053@gmail.com",
+      value: "ehtishamafzal14@gmail.com",
+      action: "mailto:ehtishamafzal14@gmail.com",
       color: "text-blue-400",
       bgColor: "bg-blue-400/10",
     },
@@ -131,8 +131,8 @@ export function Contact() {
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 text-purple-400 mr-3" />
                   <div>
-                    <p className="font-medium text-white">Based in Islamabad, Pakistan</p>
-                    <p className="text-sm text-gray-400">Available for remote work globally</p>
+                    <p className="font-medium text-white">Pakistan</p>
+                    <p className="text-sm text-gray-400">Available to relocate for onsite role or remote work</p>
                   </div>
                 </div>
                 <div className="border-t border-slate-600 pt-4">

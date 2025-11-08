@@ -50,7 +50,7 @@ export function Hero() {
             <span className="animate-pulse">|</span>
           </div>
           <p className="text-lg text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Data Scientist skilled in machine learning, deep learning, and end-to-end production solutions. Experienced in EDA, predictive modeling, and scalable ML pipelines. Proficient in NLP, Generative AI, transformer-based LLMs (BERT, GPT, RAG), and AI agents using LangChain. Adept at delivering insight-driven analytics and transforming raw data into actionable business intelligence.
+            Data Scientist skilled in machine learning, deep learning, and end-to-end AI solutions.  Proficient in NLP, Generative AI, transformer-based LLMs (BERT, GPT, RAG), and AI agents using LangChain. Adept at delivering insight-driven analytics and transforming raw data into actionable business intelligence.
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -75,7 +75,7 @@ export function Hero() {
               variant="outline"
               className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white"
             >
-              <a href="mailto:ehtisham1053@gmail.com">
+              <a href="mailto:ehtishamafzal14@gmail.com">
                 <Mail className="mr-2 h-4 w-4" />
                 Email
               </a>

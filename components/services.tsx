@@ -20,11 +20,11 @@ export function Services() {
       features: ["Exploratory Data Analysis", "Statistical Testing", "Data Visualization", "Business Intelligence"],
     },
     {
-      title: "Web Application Development",
+      title: "End-to-End AI Solutions",
       icon: <Code className="h-8 w-8" />,
       description:
-        "Full-stack web applications with Flask, Streamlit, and database integration for data-driven solutions.",
-      features: ["Flask APIs", "Streamlit Dashboards", "Database Integration", "Responsive Design"],
+        "Design and deploy scalable AI systems that automate workflows, optimize operations, and enable data-driven decision-making across domains like supply chain and business analytics.",
+      features: ["Predictive Analytics","AI-Powered Automation","Supply Chain Optimization","Model Deployment & Monitoring"],
     },
     {
       title: "Database Design & Management",
@@ -36,15 +36,21 @@ export function Services() {
       title: "Deep Learning Solutions",
       icon: <Cog className="h-8 w-8" />,
       description: "Advanced deep learning models for computer vision, NLP, and complex pattern recognition tasks.",
-      features: ["CNN Development", "Image Classification", "Neural Networks", "Model Deployment"],
+      features: ["Artificial Neural Networks", "Image Classification", "Transfer Learning", "LSTM and GRU Models"],
     },
     {
-      title: "Business Analytics",
-      icon: <TrendingUp className="h-8 w-8" />,
+      title: "Generative AI & NLP",
+      icon: <Brain className="h-8 w-8" />,
       description:
-        "Transform business data into actionable insights with forecasting, trend analysis, and performance metrics.",
-      features: ["Demand Forecasting", "Trend Analysis", "KPI Development", "Performance Metrics"],
+        "Leverage advanced AI and transformer-based models to extract insights, generate content, and automate intelligence workflows.",
+      features: [
+        "Natural Language Processing (NLP)",
+        "Generative AI Applications",
+        "LLM Fine-Tuning (BERT, GPT, RAG)",
+        "AI Agents & LangChain Integration",
+      ],
     },
+
   ]
 
   return (
