@@ -1,24 +1,46 @@
 "use client"
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Code, Brain, Database, GitBranch, BarChart3, Settings } from "lucide-react"
+import { Code, Brain, Database, BarChart3, Settings, Sparkles } from "lucide-react"
 
 export function Skills() {
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "Programming, Tools & Frameworks",
       icon: <Code className="h-6 w-6" />,
-      skills: ["Python"],
+      skills: [
+        "Python",
+        "Jupyter Notebook",
+        "scikit-learn",
+        "TensorFlow",
+        "PyTorch",
+        "SQL (MySQL, PostgreSQL)",
+        "Data Modeling & Schema Design",
+        "Git & GitHub",
+      ],
     },
     {
-      title: "Machine Learning & AI",
+      title: "Machine Learning & Deep Learning",
       icon: <Brain className="h-6 w-6" />,
       skills: [
         "Model Development (Regression, Classification, Forecasting)",
+        "Feature Engineering & Model Optimization",
         "Model Evaluation & Validation",
-        "Hyperparameter Tuning (Grid Search, Random Search)",
+        "Hyperparameter Tuning (Grid/Random Search)",
         "Model Deployment (Flask APIs, Docker, Streamlit)",
-        "TensorFlow, scikit-learn",
+        "Deep Neural Networks (CNN, RNN, LSTM)",
+      ],
+    },
+    {
+      title: "Generative AI & LLMs",
+      icon: <Sparkles className="h-6 w-6" />,
+      skills: [
+        "Large Language Models (BERT, GPT, RAG)",
+        "LangChain Framework",
+        "Prompt Engineering & Fine-tuning",
+        "Agentic AI Systems",
+        "Retrieval-Augmented Generation (RAG)",
+        "AI-Powered Automation & Knowledge Systems",
       ],
     },
     {
@@ -26,32 +48,20 @@ export function Skills() {
       icon: <BarChart3 className="h-6 w-6" />,
       skills: [
         "Data Preprocessing & Cleaning",
-        "Feature Engineering & Selection",
         "Exploratory Data Analysis (EDA)",
-        "Data Visualization (Matplotlib, Seaborn)",
         "Statistical Analysis & Hypothesis Testing",
+        "Data Visualization (Matplotlib, Seaborn)",
         "Predictive Analytics & Business Intelligence",
       ],
-    },
-    {
-      title: "Database",
-      icon: <Database className="h-6 w-6" />,
-      skills: ["SQL (MySQL, PostgreSQL)", "Data Modeling & Schema Design"],
-    },
-    {
-      title: "Version Control",
-      icon: <GitBranch className="h-6 w-6" />,
-      skills: ["GitHub"],
     },
     {
       title: "Project Management & Software Engineering",
       icon: <Settings className="h-6 w-6" />,
       skills: [
-        "Software Design Principles",
-        "Software Design Patterns",
-        "Full SDLC Understanding (Requirement Analysis → Deployment)",
+        "Software Design Principles & Patterns",
+        "Full SDLC (Requirement → Deployment)",
         "Agile Methodologies (Scrum)",
-        "Sprint Planning & Stand-ups",
+        "Sprint Planning & Daily Stand-ups",
         "Task Management (ClickUp)",
       ],
     },
