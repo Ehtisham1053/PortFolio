@@ -33,33 +33,6 @@ export function Blog() {
       url: "https://medium.com/@ehtishamafzal14/how-ai-is-reshaping-supply-chain-management-a-data-scientists-perspective-95f9f3416207",
       tags: ["Flask", "API", "Deployment"],
     },
-    {
-      title: "Computer Vision with Deep Learning: A Practical Approach",
-      excerpt:
-        "Implementing CNN architectures for image classification tasks with TensorFlow and practical deployment strategies.",
-      date: "2023-12-28",
-      readTime: "15 min read",
-      url: "https://medium.com/@ehtisham1053/computer-vision-deep-learning",
-      tags: ["Deep Learning", "Computer Vision", "TensorFlow"],
-    },
-    {
-      title: "Statistical Hypothesis Testing in Data Science",
-      excerpt:
-        "Understanding when and how to apply different statistical tests to validate your data science findings.",
-      date: "2023-12-20",
-      readTime: "9 min read",
-      url: "https://medium.com/@ehtisham1053/statistical-testing",
-      tags: ["Statistics", "Data Science", "Hypothesis Testing"],
-    },
-    {
-      title: "Time Series Forecasting with XGBoost: A Complete Guide",
-      excerpt:
-        "Learn how to build robust time series forecasting models using XGBoost with feature engineering techniques.",
-      date: "2023-12-15",
-      readTime: "11 min read",
-      url: "https://medium.com/@ehtisham1053/time-series-xgboost",
-      tags: ["Time Series", "XGBoost", "Forecasting"],
-    },
   ]
 
   return (
