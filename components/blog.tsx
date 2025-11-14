@@ -16,13 +16,13 @@ export function Blog() {
       tags: ["Machine Learning", "Python"],
     },
     {
-      title: "Deep Dive into Exploratory Data Analysis with Python",
+      title: "The Future of AI: What Actually Matters Next — Key Insights from Leaders Shaping the Industry",
       excerpt:
-        "Learn advanced EDA techniques to uncover hidden patterns and insights in your datasets using pandas and seaborn.",
-      date: "2024-01-10",
+        "A recent conversation featuring Andrew Ng and Swami Sivasubramanian delivered one of the most grounded, futuristic perspectives on where AI is truly heading. Here are the key takeaways that matter.",
+      date: "2025-11-14",
       readTime: "12 min read",
-      url: "https://medium.com/@ehtisham1053/eda-python-guide",
-      tags: ["Data Science", "Python", "EDA"],
+      url: "https://medium.com/@ehtishamafzal14/the-future-of-ai-what-actually-matters-next-key-insights-from-leaders-shaping-the-industry-2a8b2f9460a2",
+      tags: ["Artifical Intelligence", "FutureofAI"],
     },
     {
       title: "How AI is Reshaping Supply Chain Management: A Data Scientist’s Perspective",
